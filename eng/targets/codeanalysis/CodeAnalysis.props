@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NuGetAudit>true</NuGetAudit>
+    <NoWarn>$(NoWarn);PolyFillTargetsForNuget</NoWarn><!-- MSBuild task loading is complex enough  -->
+  </PropertyGroup>
+</Project>
