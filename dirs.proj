@@ -1,4 +1,6 @@
 <Project Sdk="Microsoft.Build.Traversal">
   <ItemGroup>
+    <ProjectReference Include="src/Aspire.Hosting.OpenSLO/Aspire.Hosting.OpenSLO.csproj" />
+    <ProjectReference Include="tests/Aspire.Hosting.OpenSLO.Tests/Aspire.Hosting.OpenSLO.Tests.csproj" />
   </ItemGroup>
 </Project>
