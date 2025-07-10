@@ -1,16 +1,16 @@
 <Project>
   <ItemGroup Condition=" '$(IsTestProject)' == 'true' ">
     <PackageReference Include="ReportGenerator" />
-    <PackageReference Include="Meziantou.Xunit.ParallelTestFramework" />
+    <PackageReference Include="Meziantou.Xunit.v3.ParallelTestFramework" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
-    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.v3" />
     <PackageReference Include="xunit.runner.visualstudio">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Xunit.Combinatorial" />
     <PackageReference Include="Verify.Nupkg" />
-    <PackageReference Include="Verify.Xunit" />
+    <PackageReference Include="Verify.XunitV3" />
     <PackageReference Include="FluentAssertions" />
   </ItemGroup>
 
