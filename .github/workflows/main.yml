@@ -80,10 +80,11 @@ jobs:
         path: ./artifacts/logs
         if-no-files-found: error
 
-    - name: Upload packages
-      uses: actions/upload-artifact@v4
-      with:
-        name: packages-${{ matrix.os }}
-        path: |
-          ./artifacts/package
-        if-no-files-found: error
+    # TODO: Re-enable package creation once packages are ready
+    # - name: Upload packages
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: packages-${{ matrix.os }}
+    #     path: |
+    #       ./artifacts/package
+    #     if-no-files-found: error
